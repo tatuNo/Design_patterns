@@ -1,0 +1,4 @@
+1617976292080	Rename type 'Palkankorottaja'
+1617976610004	Encapsulate field 'palkka'
+1617976617116	Encapsulate field 'pyytaja'
+1617976734984	Rename type 'Palkkapyynto'

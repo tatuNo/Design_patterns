@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta4" sequence="1" timestamp="1636967770326" analysisTimestamp="1636967769474" release="">
+  <Project projectName="Visitor">
+    <Jar>C:\Users\tatu_\workspaces_eclipse\Suunnittelumallit\Visitor\bin</Jar>
+    <AuxClasspathEntry>C:\Users\tatu_\workspaces_eclipse\Suunnittelumallit\Visitor\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Program Files\Java\jdk-11.0.8\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\tatu_\workspaces_eclipse\Suunnittelumallit\Visitor\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 15 Nov 2021 11:16:01 +0200" total_classes="8" referenced_classes="23" total_bugs="0" total_size="150" num_packages="1" java_version="11.0.8" vm_version="11.0.8+10-LTS" cpu_seconds="3.78" clock_seconds="0.85" peak_mbytes="543.30" alloc_mbytes="2048.00" gc_seconds="0.05">
+    <PackageStats package="" total_bugs="0" total_types="8" total_size="150">
+      <ClassStats class="Charizard" sourceFile="Charizard.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="Charmander" sourceFile="Charmander.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="Charmeleon" sourceFile="Charmeleon.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="Kehitysmuoto" sourceFile="Kehitysmuoto.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="Pelihahmo" sourceFile="Pelihahmo.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="PelihahmoVisitor" sourceFile="PelihahmoVisitor.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="XPtarkastaja" sourceFile="XPtarkastaja.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="323" invocations="393" avgMicrosecondsPerInvocation="823" maxMicrosecondsPerInvocation="32696" standardDeviationMicrosecondsPerInvocation="2275"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="223" invocations="2" avgMicrosecondsPerInvocation="111857" maxMicrosecondsPerInvocation="209690" standardDeviationMicrosecondsPerInvocation="97833"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="60" invocations="396" avgMicrosecondsPerInvocation="151" maxMicrosecondsPerInvocation="1225" standardDeviationMicrosecondsPerInvocation="151"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="24" invocations="23" avgMicrosecondsPerInvocation="1064" maxMicrosecondsPerInvocation="7532" standardDeviationMicrosecondsPerInvocation="1716"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="22" invocations="359" avgMicrosecondsPerInvocation="61" maxMicrosecondsPerInvocation="1160" standardDeviationMicrosecondsPerInvocation="115"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1636967770326" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

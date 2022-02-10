@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="RepositorySelectionPage.lastRepository" value="https://innoscm.edusrv.metropolia.fi/svn/tatun"/>
+	<item key="DirectorySelectionPage.lastParent_https://innoscm.edusrv.metropolia.fi/svn/lego2021s8" value=""/>
+	<item key="DirectorySelectionPage.lastParent_https://innoscm.edusrv.metropolia.fi/svn/tatun" value="trunk/Suunnittelumallit"/>
+	<item key="ChooseUrlDialog.location.x" value="709"/>
+	<item key="ChooseUrlDialog.location.y" value="214"/>
+	<item key="ChooseUrlDialog.size.x" value="503"/>
+	<item key="ChooseUrlDialog.size.y" value="398"/>
+	<item key="CommitDialog.location.x" value="291"/>
+	<item key="CommitDialog.location.y" value="0"/>
+	<item key="CommitDialog.size.x" value="1339"/>
+	<item key="CommitDialog.size.y" value="1030"/>
+	<item key="CommitDialog.weights.0" value="500"/>
+	<item key="CommitDialog.weights.1" value="500"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Revision" value="109"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Date" value="273"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Author" value="218"/>
+	<item key="HistoryTableProvider.SVNHistoryPage.Comment" value="544"/>
+	<item key="RevertDialog.location.x" value="130"/>
+	<item key="RevertDialog.location.y" value="183"/>
+	<item key="RevertDialog.size.x" value="700"/>
+	<item key="RevertDialog.size.y" value="499"/>
+	<section name="NewLocationWizard">
+	</section>
+	<section name="CommitWizard">
+		<item key="VWeight1" value="500"/>
+		<item key="VWeight2" value="500"/>
+		<item key="ShowCompare" value="false"/>
+	</section>
+</section>

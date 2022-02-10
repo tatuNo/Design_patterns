@@ -1,0 +1,4 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>fix</message>\r\n<message>added coverage report &amp; docs</message>\r\n<message>Bet fixing</message>\r\n<message>Fixed HandTest after HandValue changes</message>\r\n<message>..</message>\r\n<message>changes to handvalue and visualization in poker game</message>\r\n<message>PlayedGame, PlayerRanking &amp; Player JUnits.</message>\r\n<message>Merge branch &apos;master&apos; of https\://gitlab.metropolia.fi/tatun/otp-1.git&\#x0A;&\#x0A;Conflicts\:&\#x0A;&\#x09;peliymparisto/src/main/java/view/View.java&\#x0A;&\#x09;peliymparisto/src/main/java/view/ViewCLI.java&\#x0A;</message>\r\n<message>Implemented wintable &amp; cleaned poker game builder</message>\r\n<message>Changed cardsToSwapIndexeses initialization</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

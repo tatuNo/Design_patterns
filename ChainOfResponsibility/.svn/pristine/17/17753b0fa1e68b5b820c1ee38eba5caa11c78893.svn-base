@@ -1,0 +1,14 @@
+
+abstract class Pomo {
+	
+	private Pomo pomo;
+	
+	public void setPomo(Pomo p) {
+		this.pomo = p;
+	}
+	
+	public void kasittelePalkkapyynto(Tyontekija t, int uusiPalkka) {
+		if(pomo != null)
+			pomo.kasittelePalkkapyynto(t, uusiPalkka);
+	}
+}

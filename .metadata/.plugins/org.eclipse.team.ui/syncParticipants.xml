@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="SVN (/AbstractFactory, /Adapter, /Builder, /ChainOfResponsibility, /Command, /Composite, /Decorator, /Facade, /FactoryMethod, /Iterator, /Memento, /Observer, /Prototype, /Proxy, /Singleton, /State, /Strategy, /TemplateMethod, /Visitor)" id="org.tigris.subversion.subclipse.participant" secondary_id="1620053106033">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/AbstractFactory"/>
+<resource_scope_roots resource_scope_root_resource="/Adapter"/>
+<resource_scope_roots resource_scope_root_resource="/Builder"/>
+<resource_scope_roots resource_scope_root_resource="/ChainOfResponsibility"/>
+<resource_scope_roots resource_scope_root_resource="/Command"/>
+<resource_scope_roots resource_scope_root_resource="/Composite"/>
+<resource_scope_roots resource_scope_root_resource="/Decorator"/>
+<resource_scope_roots resource_scope_root_resource="/Facade"/>
+<resource_scope_roots resource_scope_root_resource="/FactoryMethod"/>
+<resource_scope_roots resource_scope_root_resource="/Iterator"/>
+<resource_scope_roots resource_scope_root_resource="/Memento"/>
+<resource_scope_roots resource_scope_root_resource="/Observer"/>
+<resource_scope_roots resource_scope_root_resource="/Prototype"/>
+<resource_scope_roots resource_scope_root_resource="/Proxy"/>
+<resource_scope_roots resource_scope_root_resource="/Singleton"/>
+<resource_scope_roots resource_scope_root_resource="/State"/>
+<resource_scope_roots resource_scope_root_resource="/Strategy"/>
+<resource_scope_roots resource_scope_root_resource="/TemplateMethod"/>
+<resource_scope_roots resource_scope_root_resource="/Visitor"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+</data>
+</participant>
+</syncparticipants>

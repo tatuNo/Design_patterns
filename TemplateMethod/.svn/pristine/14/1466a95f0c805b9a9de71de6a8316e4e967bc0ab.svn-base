@@ -1,0 +1,69 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+import java.util.Scanner;
+
+public class GuessGame extends Game {
+	
+	private Random rdm;
+	private int numberToGuess;
+	private HashMap<Integer,Integer> guesses;
+	private Scanner scanner;
+	private int playersCount;
+
+	@Override
+	void initializeGame(int playersCount) {
+		this.playersCount = playersCount;
+		rdm = new Random();
+		scanner = new Scanner(System.in);
+		guesses = new HashMap<Integer,Integer>();
+		numberToGuess = rdm.nextInt(100);
+	}
+
+	@Override
+	void makePlay(int player) {
+		System.out.println("Pelaaja " + player + ", arvaa numero väliltä 0-100");
+		int guess = scanner.nextInt();
+		while(guess < 0 || guess > 100) {
+			System.out.println("Numeron pitää olla väliltä 0-30");
+			guess = scanner.nextInt();
+		}
+		guesses.put(player, guess);
+	}
+
+	@Override
+	boolean endOfGame() {
+		if(guesses.size() == playersCount) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	@Override
+	void printWinner() {
+		int closest = 100;
+		String winner = "";
+		boolean draw = false;
+		int value = closest;
+		
+		for(Map.Entry<Integer, Integer> entry : guesses.entrySet()) {
+			
+			if(Math.abs(numberToGuess - entry.getValue()) < closest) {
+				closest = Math.abs(numberToGuess - entry.getValue());
+				winner = Integer.toString(entry.getKey());
+				value = entry.getValue();
+				
+			} else if(Math.abs(numberToGuess - entry.getValue()) == closest) {
+				draw = true;
+				winner += ", " + entry.getKey();
+			}	
+		}
+		if(draw) {
+			System.out.println("Tasapeli pelaajat " + winner + ". Arvattava luku oli: " + numberToGuess);
+		} else {
+			System.out.println("Lähimmäksi arvannut pelaaja " + winner + " luvulla " + value + ". Arvattava luku oli: " + numberToGuess);
+		}
+	}
+}
+

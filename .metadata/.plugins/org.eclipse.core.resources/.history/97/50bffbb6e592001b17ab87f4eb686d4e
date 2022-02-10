@@ -1,0 +1,10 @@
+
+abstract class Tayte implements Pizza {
+	protected Pizza p;
+	
+	public Tayte(Pizza p) {
+		this.p = p;
+	}
+	
+	
+}

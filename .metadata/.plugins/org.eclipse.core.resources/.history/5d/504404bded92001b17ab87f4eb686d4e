@@ -1,0 +1,40 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+//		Pizza pitsa = new Pizzapohja();
+//		pitsa = new Feta(pitsa);
+//		pitsa = new Paprika(pitsa);
+//		
+//		System.out.println(pitsa.lisaa() + " " + pitsa.getHinta());
+		int valinta;
+		do{        
+	        System.out.print("========= Pizza menu	============ \n");  
+	        System.out.print("            1. Lisää feta.   \n");  
+	        System.out.print("            2. Lisää jauheliha.\n");  
+	        System.out.print("            3. Lisää kinkku.         \n");
+	        System.out.print("            4. Lisää paprika.         \n");
+	        System.out.print("            5. Lisää tomaatti.         \n");
+	        System.out.print("            6. Maksa pizza                        \n");  
+	        System.out.print("Valintasi: ");  
+	        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));   
+	        valinta=Integer.parseInt(br.readLine());
+	        Pizza pizza = new Pizzapohja();
+	        switch (valinta) {
+	        case 1:
+	        	pizza = new Feta(pizza);
+	        	break;
+	        case 2:
+	        	pizza = new Jauheliha(pizza);
+	        	break;
+	        case 3:
+	        	pizza = new Kinkku(pizza);
+	        	break;
+	        case
+	        }
+	} while (valinta != 6);	
+	}
+}

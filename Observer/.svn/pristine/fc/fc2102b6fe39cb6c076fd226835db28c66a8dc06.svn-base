@@ -1,0 +1,22 @@
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+import java.util.Timer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ClockTimer observable = new ClockTimer();
+		Clock EUobserver = new Clock(DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss"));
+		Clock USobserver = new Clock(DateTimeFormatter.ofPattern("MM-dd-yyyy a hh:mm:ss"));
+		
+		observable.addPropertyChangeListener(EUobserver);
+		observable.addPropertyChangeListener(USobserver);
+		
+		Timer timer = new Timer();
+		timer.schedule(new Ticker(observable), 0, 1000);
+	
+	}
+
+}

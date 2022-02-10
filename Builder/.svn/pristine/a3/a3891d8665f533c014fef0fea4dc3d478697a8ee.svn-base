@@ -1,0 +1,34 @@
+package hesburger;
+
+import java.util.StringJoiner;
+
+// hesburgerin purilainen
+public class MegaHampurilainen {
+	
+	private StringJoiner ainekset = new StringJoiner(" ");
+	
+	public void setJuusto(String juusto) {
+		ainekset.add(juusto);
+	}
+	
+	public void setMajoneesi(String majoneesi) {
+		ainekset.add(majoneesi);
+	}
+	
+	public void setPihvi(String pihvi) {
+		ainekset.add(pihvi);
+	}
+	
+	public void setSalaatti(String salaatti) {
+		ainekset.add(salaatti);
+	}
+	
+	public void setSampyla(String sampyla) {
+		ainekset.add(sampyla);
+	}
+	
+	@Override
+	public String toString() {
+		return ainekset.toString();
+	}
+}

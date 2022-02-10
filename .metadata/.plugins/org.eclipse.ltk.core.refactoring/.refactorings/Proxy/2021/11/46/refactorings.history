@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Proxy/src/proxy_package&apos;&#x0D;&#x0A;- Original project: &apos;Proxy&apos;&#x0D;&#x0A;- Destination element: &apos;Proxy/src/proxy_package&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     ProxyExample.java&#x0D;&#x0A;     RealImage.java&#x0D;&#x0A;     ProxyImage.java&#x0D;&#x0A;     Image.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;proxy_package" element1="/src&lt;{ProxyExample.java" element2="/src&lt;{RealImage.java" element3="/src&lt;{ProxyImage.java" element4="/src&lt;{Image.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1636990256226" units="4" version="1.0"/>
+</session>

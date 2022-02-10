@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=AbstractFactory/src&lt;{VaateFactory.java[VaateFactory" modifiers="513" timestamp="1616089411882"/>
+    <typeInfo handle="=AbstractFactory/src&lt;{Kengat.java[Kengat" modifiers="513" timestamp="1616510851715"/>
+    <typeInfo handle="=Composite/src&lt;{Laiteosa.java[Laiteosa" modifiers="513" timestamp="1616684432612"/>
+    <typeInfo handle="=Singleton/C:\/Program Files\/Java\/jdk-11.0.8\/lib\/jrt-fs.jar`java.net.http=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;jdk.internal.net.http.common(FlowTube$TubePublisher.class[TubePublisher" modifiers="1545" timestamp="1600774497911"/>
+    <typeInfo handle="=Singleton/src&lt;{Jaatelo.java[Jaatelo" modifiers="513" timestamp="1617117935315"/>
+    <typeInfo handle="=Singleton/src&lt;{Patonki.java[Patonki" modifiers="513" timestamp="1617118068859"/>
+    <typeInfo handle="=Strategy/C:\/Program Files\/Java\/jdk-11.0.8\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.util(SortedMap.class[SortedMap" modifiers="1537" timestamp="1600774497911"/>
+    <typeInfo handle="=Strategy/src&lt;{SortingStrategy.java[SortingStrategy" modifiers="1024" timestamp="1617954237724"/>
+    <typeInfo handle="=ChainOfResponsibility/C:\/Program Files\/Java\/jdk-11.0.8\/lib\/jrt-fs.jar`java.desktop=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;javax.swing(Painter.class[Painter" modifiers="1537" timestamp="1600774497911"/>
+    <typeInfo handle="=Adapter/C:\/Program Files\/Java\/jdk-11.0.8\/lib\/jrt-fs.jar`jdk.compiler=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;com.sun.source.doctree(UsesTree.class[UsesTree" modifiers="1537" timestamp="1600774497911"/>
+    <typeInfo handle="=Adapter/src&lt;{Voimanostaja.java[Voimanostaja" modifiers="513" timestamp="1619020531107"/>
+    <typeInfo handle="=Adapter/C:\/Program Files\/Java\/jdk-11.0.8\/lib\/jrt-fs.jar`jdk.hotspot.agent=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;sun.jvm.hotspot.debugger.cdbg(VoidType.class[VoidType" modifiers="1537" timestamp="1600774497911"/>
+    <typeInfo handle="=Command/src&lt;{Command.java[Command" modifiers="513" timestamp="1620052359604"/>
+</typeInfoHistroy>

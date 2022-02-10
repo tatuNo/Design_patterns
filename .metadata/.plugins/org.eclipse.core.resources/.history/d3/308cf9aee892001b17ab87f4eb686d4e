@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pizza pizza = new Kinkku(new Feta(new Pizzapohja()));
+		
+		System.out.println(pizza.lisaa());
+	}
+
+}

@@ -1,0 +1,4 @@
+
+public class Pizzapohja implements Pizza {
+	public double getHinta();
+}

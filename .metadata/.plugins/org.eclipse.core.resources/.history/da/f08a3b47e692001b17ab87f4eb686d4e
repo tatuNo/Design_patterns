@@ -1,0 +1,16 @@
+
+public class Paprika extends Tayte{
+
+	@Override
+	public double getHinta() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void lisaa() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

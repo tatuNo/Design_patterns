@@ -1,0 +1,13 @@
+package hampurilaisbuilder;
+
+public interface HampurilaisBuilder {
+	
+	public abstract void luoUusiHampurilainen();
+	public abstract void lisaaSampylat();
+	public abstract void lisaaSalaatti();
+	public abstract void lisaaPihvit();
+	public abstract void lisaaMajoneesi();
+	public abstract void lisaaJuusto();
+	
+	public abstract Object getHampurilainen();
+}

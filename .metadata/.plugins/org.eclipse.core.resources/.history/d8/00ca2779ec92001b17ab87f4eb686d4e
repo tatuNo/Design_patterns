@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Pizza pitsa = new Pizzapohja();
+		pitsa = new Feta(pitsa);
+		pitsa = new Paprika(pitsa);
+		
+		System.out.println(pitsa.lisaa() + " " + pitsa.getHinta());
+	}
+
+}
